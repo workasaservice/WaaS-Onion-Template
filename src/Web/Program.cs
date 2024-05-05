@@ -1,3 +1,4 @@
+using WaaS.Application;
 using WaaS.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
