@@ -2,7 +2,7 @@
 using WaaS.Application.TodoLists.Commands.DeleteTodoList;
 using WaaS.Domain.Entities;
 
-using static Testing;
+using static WaaS.Application.FunctionalTests.Testing;
 
 namespace WaaS.Application.FunctionalTests.TodoLists.Commands;
 public class DeleteTodoListTests : BaseTestFixture

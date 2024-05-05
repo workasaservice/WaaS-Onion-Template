@@ -2,7 +2,7 @@
 using WaaS.Domain.Entities;
 using WaaS.Domain.ValueObjects;
 
-using static Testing;
+using static WaaS.Application.FunctionalTests.Testing;
 
 namespace WaaS.Application.FunctionalTests.TodoLists.Queries;
 public class GetTodosTests : BaseTestFixture

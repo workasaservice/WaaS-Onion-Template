@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using WaaS.Application.Common.Interfaces;
 using WaaS.Infrastructure.Data;
 
-using static Testing;
+using static WaaS.Application.FunctionalTests.Testing;
 
 namespace WaaS.Application.FunctionalTests;
 public class CustomWebApplicationFactory : WebApplicationFactory<Program>

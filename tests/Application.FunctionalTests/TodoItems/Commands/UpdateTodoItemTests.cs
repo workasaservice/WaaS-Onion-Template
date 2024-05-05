@@ -3,7 +3,7 @@ using WaaS.Application.TodoItems.Commands.UpdateTodoItem;
 using WaaS.Application.TodoLists.Commands.CreateTodoList;
 using WaaS.Domain.Entities;
 
-using static Testing;
+using static WaaS.Application.FunctionalTests.Testing;
 
 namespace WaaS.Application.FunctionalTests.TodoItems.Commands;
 public class UpdateTodoItemTests : BaseTestFixture
